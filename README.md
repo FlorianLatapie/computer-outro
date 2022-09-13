@@ -1,4 +1,4 @@
-# outro
+# computer-outro
 
 Shutdown your computer with an awesome outro music !
 
