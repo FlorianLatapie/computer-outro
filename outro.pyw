@@ -28,7 +28,7 @@ if shutdown_for_real:
 frame_counter = 0
 fps = 60
 
-sec_before_shutdown = 13 if shutdown_for_real else 2
+sec_before_shutdown = 15 if shutdown_for_real else 2
 
 while True:
     if shutdown_for_real and frame_counter < 100:
