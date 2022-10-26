@@ -34,6 +34,9 @@ while True:
     if shutdown_for_real and frame_counter < 100:
         keyboard.press(Key.media_volume_up)
 
+    if shutdown_for_real and frame_counter > (sec_before_shutdown - 1) * 60:
+        keyboard.press(Key.media_volume_down)
+
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             pygame.quit()
